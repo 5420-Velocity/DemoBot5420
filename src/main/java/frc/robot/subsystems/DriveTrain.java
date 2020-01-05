@@ -5,21 +5,18 @@
 /* the project.                                                               */
 /*----------------------------------------------------------------------------*/
 
-package frc.robot;
+package frc.robot.subsystems;
 
-public class RobotMap {
-  //Left
-  public static int Left_1_ID = 1;
-  public static int Left_2_ID = 2;
-  //right
-  public static int Right_1_ID = 3;
-  public static int Right_2_ID = 4;
+import edu.wpi.first.wpilibj.command.Subsystem;
+import com.revrobotics.CANSparkMax;
 
+public class DriveTrain extends Subsystem {
+  private CANSparkMax Left1;
+  private CANSparkMax Left2;
 
-
-
-  // If you are using multiple modules, make sure to define both the port
-  // number and the module. For example you with a rangefinder:
-  // public static int rangefinderPort = 1;
-  // public static int rangefinderModule = 1;
+  @Override
+  public void initDefaultCommand() {
+    
+  }
+ 
 }
