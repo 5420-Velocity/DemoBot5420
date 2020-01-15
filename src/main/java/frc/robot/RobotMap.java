@@ -15,6 +15,20 @@ public class RobotMap {
   public static int Right_1_ID = 3;
   public static int Right_2_ID = 4;
 
+  
+  public static int JOYSTICK_USB_DRIVER = 0;
+  public static int JOYSTICK_USB_OPERATOR = 1;
+
+  public static int JOYSTICK_RIGHT_X_AXIS = 4;
+  public static int JOYSTICK_RIGHT_Y_AXIS = 5;
+  public static int JOYSTICK_LEFT_X_AXIS = 0;
+  public static int JOYSTICK_LEFT_Y_AXIS = 1;
+
+  public static int Red_Button_ID = 1;
+  public static int Green_Button_ID = 0;
+  public static int Yellow_Button_ID = 3;
+  public static int Blue_Button_ID = 2;
+
 
 
 
